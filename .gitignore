@@ -1,0 +1,29 @@
+# 調査レポート（DOCX形式）
+doc/*.docx
+
+# 一時ファイル
+*.tmp
+*.swp
+*~
+
+# OS固有ファイル
+.DS_Store
+Thumbs.db
+
+# IDE設定
+.idea/
+.vscode/
+*.sublime-*
+
+# ログファイル
+*.log
+
+# Claude Code固有の設定とデータ
+.credentials.json
+settings.local.json
+projects/
+statsig/
+todos/
+
+# その他のClaude Code設定
+claude-code-config/
