@@ -35,6 +35,13 @@
 - 品質保証とレビューツールの必須化
 - 意思決定の優先順位
 
+### 🎨 [ビジュアルデザイン基本原則・ブランディング規約](modules/visual-design-principles.md)
+- デザイン哲学・根本的価値観（アクセシビリティ最優先）
+- 色彩・タイポグラフィ・レイアウト設計原則
+- コンポーネント設計・状態表現ガイドライン
+- デザイン判断フレームワーク・意思決定プロセス
+- 参照基準（Material Design、WCAG等）・継続的改善
+
 ### 🎨 [UI/UX設計とアクセシビリティ](modules/ui-ux-guidelines.md)
 - 基本方針
 - アクセシビリティ基準（WCAG 2.1 Level AA準拠）
@@ -220,6 +227,27 @@
 - AARRR指標とKPI管理
 - 収益化モデルとA/Bテスト
 
+### 🧠 [デザイン思考プロセス・意思決定フレームワーク](modules/design-thinking-framework.md)
+- Design Thinking・Double Diamond統合手法
+- データ駆動意思決定プロセス（データ→フィードバック→自律判断）
+- 個人開発者向け効率化戦略・LLM協業プロセス
+- 詳細記録システム（DDR・LLM協業ログ）
+- 継続的改善・プロセス進化フレームワーク
+
+### 🛠️ [デザインツール選定・ワークフロー規約](modules/design-tools-workflow.md)
+- ツール評価フレームワーク（高機能・カスタマイズ性重視）
+- 推奨ツールチェーン（Figma中心、段階的習得戦略）
+- 設計→実装迅速移行ワークフロー
+- アクセシビリティ検証統合・品質保証プロセス
+- 継続的改善・新技術適応戦略
+
+### 🔍 [デザインレビュー・品質管理プロセス](modules/design-review-quality.md)
+- 超厳密品質管理（LLM・Claude Code活用による効率的厳密性）
+- 時間差・複数視点評価による客観性確保システム
+- アクセシビリティ100%準拠・美的品質最優先基準
+- 全詳細記録システム（QVR・FLR・IRRテンプレート）
+- 外部専門家活用・継続的品質向上フレームワーク
+
 ### 🎨 [UXリサーチ・デザインシステム規約](modules/ux-design-system.md)
 - ユーザー中心設計プロセス
 - UXリサーチ手法・LLM活用
@@ -291,7 +319,7 @@
 ### 🛠️ 開発フェーズ別
 - **技術選定時**: [LLM主導開発の技術選定原則](modules/llm-development.md)を参照
 - **コーディング時**: [コーディング標準と品質管理](modules/coding-standards.md)と[コメントテンプレート](templates/)を活用
-- **UI/UX設計時**: [UI/UX設計とアクセシビリティ](modules/ui-ux-guidelines.md)を参照
+- **UI/UX設計時**: [デザイン思考プロセス](modules/design-thinking-framework.md)で手法選択・進行管理、[ビジュアルデザイン基本原則](modules/visual-design-principles.md)で判断基準確認、[デザインツール選定・ワークフロー](modules/design-tools-workflow.md)でツール・作業環境構築、[UXリサーチ・デザインシステム規約](modules/ux-design-system.md)で具体的手法実行、[デザインレビュー・品質管理](modules/design-review-quality.md)で超厳密品質確保
 - **パフォーマンス検証時**: [パフォーマンス目標](modules/performance-targets.md)で品質基準を確認
 
 ### 🔒 セキュリティ・運用時
@@ -300,6 +328,7 @@
 - **緊急時**: 各モジュールの緊急停止手順を参照
 
 ### 📋 日常的な参照
+- **デザイン作業**: [デザイン思考プロセス](modules/design-thinking-framework.md)で手法選択・DDR記録、[ビジュアルデザイン基本原則](modules/visual-design-principles.md)で判断基準確認、[デザインツール・ワークフロー](modules/design-tools-workflow.md)でツール活用・効率化、[デザインレビュー・品質管理](modules/design-review-quality.md)で超厳密品質チェック・QVR記録
 - **コメント作成**: [コメントテンプレート集](templates/)で一貫性のあるドキュメント作成
 - **設定調整**: [LLMの出力設定](modules/output-settings.md)で Claude の動作をカスタマイズ
 - **自律開発**: [自律的開発フレームワーク](modules/autonomous-development-framework.md)で判断基準を確認
